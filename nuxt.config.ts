@@ -9,4 +9,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: ['@nuxtjs/strapi', '@nuxt/image'],
+  strapi: {
+    url: process.env.STRAPI_URL || 'http://localhost:1337/api'
+  }
 })
