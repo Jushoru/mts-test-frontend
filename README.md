@@ -1,12 +1,13 @@
-# Тестовое задание: Strapi + Nuxt 3
+# Тестовое задание: Strapi + Nuxt 3 (frontend)
 
 ## Описание проекта
 
 Проект состоит из двух частей:
-- **Backend** — реализован на `Strapi Cloud`, использует `SQLite`. Предоставляет API для работы с сущностями Option и Form. Ссылка: https://github.com/Jushoru/mts-test-backend
+- **[Backend](https://github.com/Jushoru/mts-test-backend)** — реализован на `Strapi`, использует `SQLite`. Предоставляет API для работы с сущностями Option и Form.
 - **Frontend** — реализован на `Nuxt 3` (`Composition API`, `TypeScript`), стилизация через `Tailwind CSS`.
 
 ## Запуск проекта
+Для работы приложения требуется запущенный [Strapi-сервер!](https://github.com/Jushoru/mts-test-backend)
 ### 1. Склонируйте репозиторий:
 ```
 git clone https://github.com/your-repo/nuxt-frontend.git
