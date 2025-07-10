@@ -14,8 +14,11 @@ module.exports = {
         'background': '#F2F3F7',
         'foreground': '#1D2023',
         'accent': '#FF0032',
+
         'placeholder': '#6D7782',
         'input-border': '#BBC1C7',
+
+        'accentHover': '#C80028',
       },
       fontFamily: {
         'Roboto': ['Roboto', 'sans-serif'],

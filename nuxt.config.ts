@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxtjs/strapi', '@nuxt/image'],
+  modules: ['@nuxtjs/strapi', '@nuxt/image', 'nuxt-toast'],
   strapi: {
     url: process.env.STRAPI_URL || 'http://localhost:1337/api'
   }
